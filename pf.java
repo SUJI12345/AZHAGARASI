@@ -19,11 +19,11 @@ import java.io.*;
         }
         else if(number<0)
         {
-            System.out.println(" Negative");
+            System.out.println("Negative");
         }
         else
         {
-            System.out.println(" Zero");
+            System.out.println("Zero");
         }
     }
 }

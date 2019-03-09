@@ -1,5 +1,5 @@
 import java.util.Scanner;
- class import java.util.Scanner;
+import java.util.Scanner;
  class pa1
  {
 public static void main(String args[])
@@ -7,7 +7,7 @@ public static void main(String args[])
 	 Scanner in = new Scanner(System.in);
      int n = in.nextInt();
      int sum = 0, r;
-	 int temp = n;    
+int temp = n;    
      while(n>0)
 	   {    
         r = n % 10;   

@@ -1,5 +1,6 @@
 import java.util.*;
-class PNum {
+class PNum 
+{
    public static void main(String args[])
    {
       Scanner sc = new Scanner(System.in);

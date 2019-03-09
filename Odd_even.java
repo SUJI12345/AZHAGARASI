@@ -1,17 +1,18 @@
 import java.util.Scanner;
-class Odd_even {
-    public static void main(String[] args) 
+class Odd_even
+{
+   public static void main(String[] args) 
+   {
+      Scanner input = new Scanner(System.in);
+      int start =input.nextInt();
+      int end =input.nextInt();
+      for(int i=start+1;i<end;i++)
     {
-        Scanner input = new Scanner(System.in);
-        int start =input.nextInt();
-        int end =input.nextInt();
-         for(int i=start+1;i<end;i++)
-         {
-             if(i%2!=0)
-             {
-                 System.out.print(i+" ");
-             }
-         } 
-        
+       if(i%2!=0)
+     {
+        System.out.print(i+" ");
+       }
+       } 
+       
     }
 }
